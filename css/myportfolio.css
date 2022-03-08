@@ -1,0 +1,149 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100%;
+}
+.me{
+    color:rgb(187, 8, 82);
+    font-family: 'Baloo Bhai 2';
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+.me ul{
+    display: inline-flex;
+    list-style: none;
+}
+.me ul li{
+    width: 300px;
+}
+.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/949/141/non_2x/programming-code-coding-or-hacker-background-vector.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+}
+.banner-text{
+    margin: 120px;
+    padding: 10px;
+    border: 5px white solid;
+    width: 30%;
+    color: white;
+}
+
+.banner-text:hover{
+    background-color:lightseagreen;
+    color: whitesmoke;
+}
+.about{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.about img{
+    border-radius: 50%;
+}
+.about img:hover{
+    border: 3px blue solid;
+}
+.about-me{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 20px;
+    width: 30%;
+}
+.about-me:hover{
+    color: rgb(187, 8, 82);
+}
+.machine{
+    margin-left: 135px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.machine img{
+    border-radius: 50%;
+}
+.machine img:hover{
+    border: 3px blue solid;
+}
+.about-machine{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 20px;
+    width: 30%;
+}
+.about-machine:hover{
+    color: rgb(187, 8, 82);
+}
+.cricket{
+    margin-left: 500px ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.cricket img{
+    border-radius: 50%;
+}
+.cricket img:hover{
+    border: 3px blue solid;
+}
+.hobby{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 20px;
+    width: 20%;
+}
+.hobby:hover{
+    color:rgb(187, 8, 82);
+}
+.social{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(14, 13, 13, 0.973);
+}
+.fa {
+    padding: 10px;
+    font-size: 100px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook{
+    margin-left: 580px;
+    border-radius: 50%;
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin{
+    border-radius: 50%;
+    background:#3B5998 ;
+    color: white;
+}
+.fa-instagram{
+    border-radius: 50%;
+    background: #55ACEE;
+    color: red;
+}
+.fa-twitter{
+    border-radius: 50%;
+    background: #55ACEE;
+    color: blue;
+}
+.site{
+    margin-left: 620px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.site:hover{
+    color:rgb(187, 8, 82)
+}
